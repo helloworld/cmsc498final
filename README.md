@@ -10,6 +10,16 @@ The data is stored in the `/data` directory. The main IPython notebook downloads
 
 Simply run the `credit_card.ipynb` Jupyter Notebook, or run `main.py` from the command line. 
 
+```
+jupyter notebook
+# open credit_card.ipynb
+```
+
+```
+python main.py  > output.txt
+tail -f output.txt
+```
+
 ## Works Cited:
 
 | [1] Huang, Chong, Xiao Chen, Peter Kairouz, Lalitha Sankar, and Ram Rajagopal. "Generative Adversarial Models for Learning Private and Fair Representations." (2018).
